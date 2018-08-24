@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('../img/login.jpg') no-repeat center;
+    background-size:100% 100%;
+    /*background-attachment: fixed;*/
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:100%;
+}
+.box2{
+    width:320px;
+    height:50px;
+    /*border: 1px solid red;*/
+}
+.box3{
+    width: 320px;
+    height: 260px;
+    /*background: aliceblue;*/
+    /*border: 1px solid red;*/
+    /*background-color:rgba(255,255,255,.2);!*设置登录框为透明色*!*/
+    /*filter:alpha(Opacity=100);*/
+    /*-moz-opacity:1;*/
+    /*opacity: 0.1;*/
+}
+.box4{
+    width: 320px;
+    height:300px;
+    /*border: 1px solid red;*/
+}
+.box5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color:rgba(255,255,255,.2);/*设置登录框为透明色*/
+}
+.box6{
+    width:320px;
+    height:250px;
+}
+.PageBtn{
+    width:158px;
+    height:50px;
+    background-color:rgba(255,255,255,.2);
+}
+.btn1{
+    width: 320px;
+    height:50px;
+}
+.wordSize1{
+    font-family: "宋体";
+    font-size: 20px;
+}
+.input1{
+    width: 200px;
+    height:50px;
+    /*border-radius: 5px;*/
+}
+.checkbox{
+    width:200px;
+    height:50px;
+    color: red;
+}
+.check{
+    color: red;
+    width:250px;
+    height:20px;
+}

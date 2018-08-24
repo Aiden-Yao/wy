@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding:0;
+    background: url('../img/panel.jpg') no-repeat center;
+    background-size:100% 100%;
+}
+#panel,#flip/*折叠菜单标题*/
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(255,255,255,0.2);
+    width: 300px;
+    height:60px;
+}
+#foldedContents/*被折叠的面板*/
+{
+    display:none;
+}
+.systemTitle{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:1800px;
+    height:100px;
+    /*border:1px solid red;*/
+}
+.leftMenuBar{
+    width:300px;
+    height:800px;
+    background-color:rgba(255,255,255,.2);
+    /* border:1px solid red; */
+}
+.menuTitle{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    height:60px;
+    /*border:1px solid red;*/
+}
+.foldableMenu{
+    width:300px;
+    height: 740px;
+    /*border:1px solid red;*/
+    /*background-color: antiquewhite;*/
+}
+.a1_height{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:60px;
+}
+.box1{
+    display:flex;
+    justify-content: left;
+    width:1800px;
+    height:800px;
+}
+.box2{
+    width:1500px;
+    height:800px;
+    /*border:1px solid red;*/
+}
+.box3{
+    width:1500px;
+    height:75px;
+    /*border:1px solid red;*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4{
+    width:1500px;
+    height:650px;
+    /*border:1px solid red;*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box5{
+    width:1500px;
+    height:75px;
+    /*border:1px solid red;*/
+}
+.tablePanel{
+    width:1300px;
+    height:650px;
+    /*border:1px solid red;*/
+}
+.functionBar{
+    width:1300px;
+    height:75px;
+    /*border:1px solid red;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Btn1{
+    width: 80px;
+    height:35px;
+}
+.Btn2{
+    width:300px;
+    height:35px;
+}
+.systemTitle_style{
+    font-family: "Comic Sans MS";
+    font-size:35px;
+    font-weight:bold;
+    color:black;
+    text-shadow: 0 0 10px rgb(240, 90, 63);  /*有光晕效果*/
+}
+.menuTitle_style{
+    font-family: "Comic Sans MS";
+    font-size:20px;
+    color:black;
+    text-shadow: 0 0 5px rgb(12, 237, 253);  /*有光晕效果*/
+}
+/*body{*/
+    /*margin: 0;*/
+    /*padding:0;*/
+    /*!*background: url('../img/panel.jpg') no-repeat center;*!*/
+    /*background: url('../img/login.jpg') no-repeat center;*/
+    /*background-size:100% 100%;*/
+/*}*/
+/*.box1{*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*width:1800px;*/
+    /*height:100px;*/
+    /*!*border:1px solid red;*!*/
+    /*!*background-color: red;*!*/
+/*}*/
+/*.box2{*/
+    /*width: 1800px;*/
+    /*height: 800px;*/
+    /*!*border:1px solid red;*!*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+/*}*/
+/*.box3{*/
+    /*width:1000px;*/
+    /*height:800px;*/
+    /*border:1px solid red;*/
+/*}*/
+/*.box4{*/
+    /*width:1000px;*/
+    /*height:60px;*/
+    /*border:1px solid red;*/
+/*}*/
+/*.box5{*/
+    /*width:1000px;*/
+    /*height:680px;*/
+    /*border:1px solid red;*/
+/*}*/
+/*.box6{*/
+    /*width:1000px;*/
+    /*height:60px;*/
+    /*border:1px solid red;*/
+/*}*/
+/*.wordcss1{*/
+    /*font-family: Candara;*/
+    /*font-size:50px;*/
+    /*color:black;*/
+    /*!*filter: blur(add=1, direction=45, strength=3);*!*/
+    /*text-shadow:2px 2px 5px orange,-2px 2px 5px green;*/
+/*}*/
+
+
